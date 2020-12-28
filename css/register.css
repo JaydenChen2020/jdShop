@@ -1,0 +1,16 @@
+.header{width: 80%;height:50px;padding:15px 0;margin:auto;display: grid;grid-template-columns: repeat(2,300px);justify-content: space-between;row-gap: 100px;text-align: center;align-items: center;}
+.header div{display:flex;flex-direction:row;align-items: center;}
+.font_one{font-weight: 500;font-size: 18px;padding-left: 10px;padding-top: 10px;}
+.font_two{color: gray;}
+.word{height:50px;background-color: #FFF8F0;text-align: center;line-height: 50px;font-size: 13px;color: gray;}
+.main{width: 100%;height:475px;background-color: #E93854;display: flex;}
+#use_form{height:380px; width:350px;background-color: white;margin-top: 20px;margin-left: -100px;}
+#use_form .tips_one{display: block;height:30px;text-align: center;padding-top: 3px;background-color: #FFF8F0;font-size: 13px;color: gray;line-height: 2em;}
+.load_choose{height:50px;display: grid;grid-template-columns: repeat(2,1fr);align-items: center;text-align: center;}
+.load_choose span:nth-child(1){color: gray;font-size: 17px;font-weight: 900;}
+.load_choose span:nth-child(2){color: rpxed;font-size: 17px;font-weight: 900;}
+.load_putin{display: flex; flex-direction: column;width: 90%;margin:auto;align-items: center;text-align: right;}
+#use_form .load_putin span{display: block;width:280px;text-align: right;padding-top: 30px;font-size: 13px;color: gray;}
+#use_form input{height: 30px;width:280px;margin-top: 30px;}
+#use_form [type=submit]{width:90%;background-color: red;color: white;height: 40px;text-align: center;letter-spacing: 20px;font-size: 17px;}
+#load_foot{display: flex;flex-direction: row;width: 90%;margin: auto;justify-content: space-between;padding-top:22px;}

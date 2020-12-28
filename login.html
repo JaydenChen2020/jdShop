@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <link rel="stylesheet" href="css/public.css" type="text/css">
+    <script src="js/public.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<!-- 注册页面 -->
+<body>
+    <div class="header">
+        <div><img src="images/logo.png" alt=""><span class="font_one"> 欢迎注册</span></div>
+        <div><span class="font_two">已有账号 </span><span class="font_three"> 请登录</span></div>
+    </div>
+    <hr>
+    <form action="">
+        <input type="text" id="use_tel" placeholder="手机或邮箱" onchange="checkTel(this)"><br>
+        <input type="password" id="use_key" placeholder="8-10位数字和英文字母组成的密码" onchange="checkKey(this)"><br>
+        <input type="password" placeholder="重复密码" onchange="checkKeyAgain(this)"><br>
+        <input type="submit" value="提交注册" onsubmit="sub()"><br>
+    </form>
+    <div class="footer">
+        <span>关于我们 | 联系我们 | 人才招聘 | 商家入驻 | 广告服务 | 手机京东 | 友情链接 | 销售联盟 | 京东社区 | 京东公益 | English Site</span><br>
+        <span>Copyright @ 2004-2020 京东JD.com 版权所有</span>
+    </div>
+</body>
+</html>

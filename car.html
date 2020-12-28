@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/car.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <script src="./js/car.js"></script>
+    <script src="./js/public.js"></script>
+    <!-- <script>
+        var cut=document.getElementsByTagName("button")
+
+    </script> -->
+</head>
+<body onload="carBook()">
+    <header>
+        <span class="a">京东首页 浙江</span>
+        <div>
+            <span>你好 请登录</span>
+            <span>免费注册</span>
+            <span>我的订单</span>
+            <span>我的购物车</span>
+            <span>客户服务</span>
+        </div>
+    </header>
+    <div class="find">
+        <img src="images/logo.png" alt="">
+        <div>
+            <input type="text">
+            <input type="button" value="搜索">
+        </div>
+    </div>
+    <div class="main">
+        <span></span>
+        <ul>
+            <li><input type="radio">全选</li>
+            <li>商品</li>
+            <li></li>
+            <li>单价</li>
+            <li>数量</li>
+            <li>小记</li>
+            <li>操作</li>
+        </ul>
+        <div style="display: flex;flex-direction: row;align-items: center;"><input type="radio"><span class="color_q">京东自营</span></div>
+        <br>
+        <hr>
+        <br>
+        <span class="color_w">满减</span>
+        <span>活动商品购满￥600.00即可享受满减 > 去凑单 ></span>
+        <div id="car_book">
+
+        </div>
+    </div>
+    <footer>
+        <div>
+            <span>品类齐全，轻松购物</span>
+        </div>
+        <div>
+            <span>多仓直发，急速配送</span>
+        </div>
+        <div>
+            <span>正品行货，精致服务</span>
+        </div>
+        <div>
+            <span>天天低价，畅选无忧</span>
+        </div>
+    </footer>
+</body>
+</html>

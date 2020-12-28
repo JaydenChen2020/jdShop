@@ -1,0 +1,18 @@
+header{height:40px;background-color: #E3E4E5;display: grid;grid-template-columns: 65% 35%;color: gray;font-size:14px;align-items: center;}
+header .a{display: block;margin-left: 50px;}
+header div{display: flex;flex-direction: row;justify-content: space-evenly;}
+header div span:nth-child(2){color: red;}
+.find{margin: auto;width: 80%;height: 100px;display: flex;flex-direction: row;justify-content: space-between;align-items: center;}
+.find [type=text]{width: 250px;height: 23px;}
+.find [type=button]{width: 50px;height: 30px;background-color: #715A52;color: white;}
+footer{background-color: #CCCCCC;display: grid;grid-template-columns: repeat(4,25%);justify-content: space-evenly;padding: 30px 0;margin-top: 30px;}
+footer div{height: 40px;background-image: url(images/ico_service.png);background-repeat: no-repeat;text-align: center;}
+footer div span{display: block;font-size: 18px;font-weight: 800;padding-top: 8px;}
+.main {width: 80%;margin: auto;}
+.main ul{height: 60px;background-color: #F3F3F3;list-style: none;display: grid;grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr;align-items: center;text-align: center;}
+.color_q{background-color: red;color: white; display: block;width: 90px;margin: 10px 10px;}
+.color_w{margin: 25px;padding-bottom:20px;border: 1px solid orange;color: orange;}
+#car_book{width: 90%;margin: auto; text-align: center;}
+#car_book dl{display: grid;grid-template-columns: 1fr 3fr 2fr 1fr 1fr 1fr 1fr;}
+#car_book input{text-align: center;}
+

@@ -1,0 +1,32 @@
+header{height:40px;background-color: #E3E4E5;display: grid;grid-template-columns: 65% 35%;color: gray;font-size:14px;align-items: center;}
+header .a{display: block;margin-left: 50px;}
+header div{display: flex;flex-direction: row;justify-content: space-evenly;}
+header div span:nth-child(2){color: red;}
+.find{margin: auto;width: 80%;height: 100px;display: flex;flex-direction: row;justify-content: space-between;align-items: center;}
+.find [type=text]{width: 250px;height: 23px;}
+.find [type=button]{width: 50px;height: 30px;background-color: #715A52;color: white;}
+
+#main{width: 90%;display: flex;flex-direction: row;margin: auto;}
+.left{width: 18%;border: 1px solid gray;}
+.left .b{display: flex;flex-direction: row;justify-content: space-around;height: 30px;align-items: center;}
+.left .b span:nth-child(2){font-size: 12px;color: gray;}
+.left .cell {padding-left: 10px;}
+.left .cell span{font-size: 14px;line-height: 30px;}
+.left .cell span:nth-child(2){font-size: 23px;color: red;}
+.right{width: 82%;height:2000px;border: 1px solid gray;display: grid;grid-template-columns: repeat(4,1fr);grid-template-rows: repeat(5,1fr);gap: 30px;}
+/* .right div{border: 1px solid red;} */
+.shop{margin: auto;padding-left: 20px;line-height: 27px;}
+.shop span:nth-child(2){font-size: 23px;color: red;}
+.shop span:nth-child(4){font-size: 13px;color: black;}
+.shop span:nth-child(6){font-size: 13px;color: white;background-color: red;border: 1px solid red;margin-left: 5px;}
+.shop span:nth-child(7){font-size: 13px;color: blue;border: 1px solid blue;margin-left: 5px;}
+.shop span:nth-child(8){font-size: 13px;color: red;border: 1px solid red;margin-left: 5px;}
+.shop [type=button]{width: 90px;background-color: white;color: red;margin-left: 15px;border: 1 solid rgb(255, 255, 255);box-shadow: 1px 1px 1px 1px rgb(206, 204, 204);}
+.right .shop_foot span{margin-left: 10px;}
+.right .shop_foot span:nth-child(1){border: 1px solid gray;}
+.right .shop_foot span:nth-child(2){border: 1px solid gray;}
+.right .shop_foot span:nth-child(3){border: 1px solid gray;}
+.right .shop_foot span:nth-child(4){border: 1px solid gray;}
+footer{background-color: #CCCCCC;display: grid;grid-template-columns: repeat(4,25%);justify-content: space-evenly;padding: 30px 0;margin-top: 30px;}
+footer div{height: 40px;background-image: url(images/ico_service.png);background-repeat: no-repeat;text-align: center;}
+footer div span{display: block;font-size: 18px;font-weight: 800;padding-top: 8px;}

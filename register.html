@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="css/register.css" type="text/css">
+    <link rel="stylesheet" href="css/public.css" type="text/css">
+</head>
+<!-- 登陆页面 -->
+<body>
+    <div class="header">
+        <div><img src="images/logo.png" alt=""><span class="font_one"> 欢迎登录</span></div>
+        <span class="font_two">登录页面，调查问卷</span>
+    </div>
+    <div class="word">依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证新版<b style="color:black">《京东隐私政策》</b>已上线，将更有利于保护您的个人隐私。</div>
+    <div class="main">
+        <img src="./images/loginBg.png" alt="">
+        <form action="" id="use_form">
+            <span class="tips_one">京东不会以任何理由要求您转账汇款，谨防诈骗。</span>
+            <div class="load_choose">
+                <span>扫码登录</span>
+                <span>账户登录</span>
+            </div>
+            <hr>
+            <div class="load_putin">
+                <input type="text" id="username" placeholder="邮箱/用户名/登录手机">
+                <input type="password" id="password" placeholder="密码">
+                <span>忘记密码</span>
+                <input type="submit" value="登录" onsubmit="check()">
+               
+            </div>
+            <div id="load_foot">
+                <div>qq | 微信</div>
+                <div>立即注册</div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
